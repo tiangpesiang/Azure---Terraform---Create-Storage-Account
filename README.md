@@ -34,7 +34,7 @@ resource "azurerm_storage_account" "example" {
 }
 
 
-#variables.tf
+# variables.tf
 variable "aws_region" {
   description = "The AWS region where resources will be deployed."
   type        = string
